@@ -1,4 +1,4 @@
-apiVersion : apps/v1beta1
+apiVersion : apps/v1
 kind: Deployment
 metadata:
   name: divineopsexpressaks 
@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: divineopsexpressaks 
-          image: yamlk8.azurecr.io/divineopsexpressaks 
+          image: agunuacr.azurecr.io/agunuworldexpressaks
           ports:
           - containerPort: 3000
