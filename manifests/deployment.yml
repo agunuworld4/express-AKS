@@ -1,16 +1,16 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: divineopsexpressaks 
+  name: agunuworldexpressaks 
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: divineopsexpressaks 
+        app: agunuworldexpressaks 
     spec:
       containers:
-        - name: divineopsexpressaks 
+        - name: agunuworldexpressaks 
           image: agunuacr.azurecr.io/agunuworldexpressaks
           ports:
           - containerPort: 3000
